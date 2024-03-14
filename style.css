@@ -1,0 +1,94 @@
+@charset "UTF-8";
+
+/* Global */
+
+* {
+    margin: 0px;
+    padding: 0px;
+}
+
+/* Geral */
+
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: black;
+    background-image: url('pacote-d013/imagens/fundo-madeira.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 100vh;
+    background-position: center center;
+    
+}
+
+
+/* conteúdo TELA */
+
+main {
+   height: 100vh;
+   position: relative;
+}
+
+main > #celular {
+    background-image: url('pacote-d013/imagens/frame-iphone.png');
+    background-repeat: no-repeat;
+    width: 311px;
+    height: 627px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50% , -50%);
+}
+
+/* Conteúdo REDES */
+
+main > #redes-sociais {
+    text-align: right;
+}
+
+main img {
+    width: 50px;
+    border-radius: 50%;
+    margin: 10px;
+    box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.397);
+    box-sizing: border-box;
+    
+}
+
+#redes-sociais  img:hover {
+    border: 1px solid rgba(255, 255, 255, 0.808);
+    transform: translate(-3px , -3px);
+    box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.39);
+    transition: transform 0.25s, border 0.3s;
+}
+
+iframe#tela {
+    position: relative;
+    top: 80px;
+    left: 23px;
+    width: 266px;
+    height: 471px;
+}
+
+/* Rodapé */
+
+footer {
+    background-color: black;
+    color: white;
+    text-align: center;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 1em;
+    font-weight: bold;
+    padding: 3px;
+    letter-spacing: 1px;
+}
+
+
+footer a {
+    color: white;
+    text-decoration: none;
+}
+
+footer a:hover {
+    text-decoration: underline;
+}
+
